@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resynth"
+  short_description: "Analyze sounds and verify editable synth presets"
+  default_prompt: "Use $resynth to analyze this reference and recreate it as a verified preset in my synth."
