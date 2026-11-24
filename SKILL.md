@@ -23,7 +23,7 @@ Choose the target synth from the request or the established session. Ask when th
 
 ## Verify and deliver
 
-- Load the final saved preset and render it in the target synth. Use the same sounding pitch, comparable note length and velocity, and matched listening level for A/B. Record the original tuning, render settings and absolute levels separately. For Serum 2, prefer its [last-note one-shot export](references/serum-2.md) when available.
+- Load the final saved preset and render it in the target synth. Use the same sounding pitch, comparable note length and velocity, and matched listening level for A/B. Record the original tuning, render settings and absolute levels separately. Use float audio to measure over-range peaks before any conversion to fixed-point WAV. For Serum 2, prefer its [last-note one-shot export](references/serum-2.md) when available.
 - Compare identifying features and measurements, then iterate on material differences supported by evidence. When the user asks to get even closer, provide matched A/B audio and use their listening feedback to guide the next iteration. The user makes the final subjective call in that mode.
 - Give a preset, native WAV render, spectrogram and short comparison per sound. A structural check, model preview or different synth render is separate from native verification. Name any missing artifact, material residual difference or blocker before labeling the work complete.
 - Deliver files in chat by default. For a user-specified folder, sort by sound type and reuse suitable existing subfolders. Use separate revision names or obtain permission to replace a preset. Verify the files at the destination. Check a synth's library index separately when the user expects files to appear there.

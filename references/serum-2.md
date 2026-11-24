@@ -6,3 +6,5 @@ Use the drag-audio control beside the Serum 2 logo when the instance is availabl
 2. Play the note, then drag the audio control to an authorized destination. Use an isolated test when the drop would add a clip to an existing production project.
 3. Find the new WAV, verify its creation time and patch name, and inspect its pitch and audible tail before comparing. If drag export is unavailable, use a render from the same Serum instance in the DAW.
 4. Associate the render with the preset by filename or in the report. Check for the preset in the browser when it was copied into a bank. Use **Rescan Database** for a stale index when access to the instance is authorized.
+
+An isolated VST3 host can render the installed Serum 2 engine when an in-app drag would disturb a live project. Verify that the engine accepted the intended preset by reading back its name and key parameters before trusting the audio. Report this as a native VST3 render and record the note, velocity, gate and sample rate.
